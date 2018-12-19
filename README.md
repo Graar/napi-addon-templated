@@ -18,7 +18,8 @@ This will install the required node-modules and immediately run the build comman
 
 Currently this yields an error something like this:
 
-``Building the projects in this solution one at a time. To enable parallel build, please add the "/m" switch.
+```
+Building the projects in this solution one at a time. To enable parallel build, please add the "/m" switch.
   nothing.c
   win_delay_load_hook.cc
   nothing.vcxproj -> H:\git\napi-addon-templated\build\Release\\nothing.lib
@@ -50,7 +51,8 @@ gyp ERR! node-gyp -v v3.8.0
 gyp ERR! not ok
 error Command failed with exit code 1.
 info Visit https://yarnpkg.com/en/docs/cli/install for documentation about this command.
-``
+```
+
 
 
  
